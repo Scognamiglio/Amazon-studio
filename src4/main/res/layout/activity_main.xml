@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prenom"
+        />
+
+    <EditText
+        android:id="@+id/ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/TV"
+        />
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom"
+        android:layout_below="@+id/ET"
+        />
+
+    <EditText
+        android:id="@+id/ET1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/TV1"
+        />
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eMail"
+        android:layout_below="@+id/ET1"
+        />
+
+    <EditText
+        android:id="@+id/ET2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/TV2"
+        />
+    <TextView
+        android:id="@+id/TV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="matiere"
+        android:layout_below="@+id/ET2"
+        />
+
+    <EditText
+        android:id="@+id/ET3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/TV3"
+        />
+    <TextView
+        android:id="@+id/TV4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="annee"
+        android:layout_below="@+id/ET3"
+        />
+
+    <EditText
+        android:id="@+id/ET4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/TV4"
+        />
+    <TextView
+        android:id="@+id/TV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moyenne"
+        android:layout_below="@+id/ET4"
+        />
+
+    <EditText
+        android:id="@+id/ET5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@+id/TV5"
+        />
+
+    <Button
+        android:id="@+id/BT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer"
+        android:layout_below="@+id/ET5"
+        />
+    <Button
+        android:id="@+id/BT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afficher"
+        android:layout_below="@+id/BT"
+        />
+
+
+
+
+</RelativeLayout>

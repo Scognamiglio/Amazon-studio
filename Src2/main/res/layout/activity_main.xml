@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/img"
+        android:layout_below="@+id/TV"
+        android:src="@drawable/dollar"
+        />
+    <EditText
+        android:id="@+id/ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:layout_below="@+id/img"
+        />
+
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/img1"
+        android:layout_below="@+id/ET"
+        android:src="@drawable/euro"
+        />
+    <EditText
+        android:id="@+id/ET1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:layout_below="@+id/img1"
+        />
+
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:id="@+id/img2"
+        android:layout_below="@+id/ET1"
+        android:src="@drawable/yens"
+        />
+    <EditText
+        android:id="@+id/ET2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:layout_below="@+id/img2"
+        />
+
+    <Button
+        android:id="@+id/BT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="convertir"
+        android:layout_below="@+id/ET2"
+        />
+
+
+
+
+</RelativeLayout>
